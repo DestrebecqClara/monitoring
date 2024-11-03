@@ -1,7 +1,6 @@
 services:
   ping-exporter:
-    image: ping-exporter
-    build: .
+    image: destrebecqclara/ping-exporter:v1.0.0
     ports:
       - 8000:80
     environment:
